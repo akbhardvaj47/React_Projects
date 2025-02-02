@@ -1,0 +1,43 @@
+.modalOverLay {
+  width: 100%;
+  height: 100vh;
+  transition: opacity 0.5s ease, visibility 0.5s;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  visibility: hidden; 
+}
+
+.modalDiv {
+  padding: 20px;
+  width: 40%;
+  height: 80vh;
+  position: fixed;
+  border-radius: 10px;
+  top: -90%;
+  left: 50%;
+  transform: translateX(-50%); /* Adjust for center alignment */
+  transition: top 0.5s ease;
+}
+
+.modalDiv h2 span{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+.show-modal {
+  top: 10%; /* Transition to visible state */
+}
+
+.en {
+  position: fixed;
+  right: 0;
+  top: 100px;
+  transform: rotate(-90deg);
+  transition: transform 0.5s ease; /* Smooth transition if needed */
+}
+
+/* To show the modal */
+.show-modal {
+  opacity: 1;
+  visibility: visible;
+}

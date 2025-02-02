@@ -1,0 +1,32 @@
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+nav h1{
+    text-align: center;
+}
+nav ul li{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blogItems{
+    flex-basis: 22%;
+    margin: 1%;
+    text-align: center;
+    padding: 0.5%;
+    border-radius: 5%;
+    box-shadow: 1px 1px 5px gray;
+}
+.read-more{
+    text-decoration: none;
+    color: green;
+}

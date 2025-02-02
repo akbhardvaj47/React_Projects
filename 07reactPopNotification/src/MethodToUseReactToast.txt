@@ -1,0 +1,5 @@
+step-1 : npm install react-toastify or npm install react-notifications
+step-2 : import 'react-toastify/dist/ReactToastify.css' or import 'react-notifications/lib/notifications.css';
+step-3 : import { ToastContainer, toast } from 'react-toastify' or import {NotificationContainer, NotificationManager} from 'react-notifications';
+step-4 : Add <ToastContainer/> or <NotificationContainer/> Component in your project anywhere
+step-5 : use NotificationManager.info('Hello World') or toast.info('Welcome to my World!');

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input-box{
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+input{
+    min-width: 50%;
+    min-height: 30px;
+    font-size: 25px;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    background: rgb(0, 55, 255);
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+}
+.para-box{
+    max-width: 80%;
+    margin: auto;
+    text-align: justify;
+}
