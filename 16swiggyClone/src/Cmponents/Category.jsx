@@ -22,7 +22,7 @@ function Category() {
     if(slide>20) return false;
     // console.log(category.length)
     setSlide(slide+3)
-    console.log(slide)
+    // console.log(slide)
   };
 
   // Handle previous arrow click

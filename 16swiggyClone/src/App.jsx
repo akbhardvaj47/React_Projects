@@ -5,6 +5,7 @@ import Header from './Cmponents/Header'
 import Category from './Cmponents/Category'
 import TopRes from './Cmponents/TopRes'
 import OnlineDelivery from './Cmponents/OnlineDelivery'
+import Footer from './Cmponents/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <Category/>
       <TopRes/>
       <OnlineDelivery/>
+      <Footer/>
     </>
   )
 }
