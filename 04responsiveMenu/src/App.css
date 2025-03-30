@@ -1,0 +1,24 @@
+.menu{
+    width: 80%;
+    height: 100vh;
+    background: #000;
+    position: fixed;
+    transition: 0.5s;
+    left: -100%;
+    top: 0;
+}
+
+.show{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.menu ul li{
+    list-style: none;
+    color: white;
+    padding: 19px;
+}
+.tog{
+    position: fixed;
+    right: 20px;
+}

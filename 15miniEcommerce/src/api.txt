@@ -1,0 +1,4 @@
+mpm i axios is a package that is use to handle api
+https://dummyjson.com/products
+https://dummyjson.com/products/categories
+https://dummyjson.com/products/category/smartphones

@@ -1,0 +1,16 @@
+.error{
+    background-color: yellow;
+    color: red;
+}
+.warning{
+    background-color: red;
+    color: yellow;
+}
+.success{
+    color: green;
+    background-color: aqua;
+}
+.primary{
+    color: blue;
+    background-color: cadetblue;
+}

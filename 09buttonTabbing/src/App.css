@@ -1,0 +1,22 @@
+.outer{
+    width: 80%;
+    margin: auto;
+}
+.outer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+.outer ul li button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.activeButton{
+    background-color: blue!important;
+    color: white!important;
+}
